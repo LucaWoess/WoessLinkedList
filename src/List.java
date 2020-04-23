@@ -27,7 +27,7 @@ public class List {
 
 	public Element getLastElement() {
 		Element lastElement = headElem;
-		while(lastElement != null) {
+		while(lastElement.address != null) {
 			lastElement = lastElement.address;
 		}
 		return lastElement;
